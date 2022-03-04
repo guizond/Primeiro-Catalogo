@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Parisienne&family=Roboto+Slab&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 30px;
+}
+
+body {
+    background-color: #f4e7c8;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container > header {
+    background: #f4e7c8;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+main {
+    background: #fff;
+    font-size: 24px;
+    padding: 1rem;
+}
+
+
+.cabecalho {
+    background: #3E6913;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    color: #000;
+    border-right: 5px solid #f4e7c8;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #f4e7c8;
+    padding: 15px;
+}
+
+main > header {
+    color:#3E6913;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.produto {
+    margin-bottom: 20px; cursor: pointer;
+}
+
+.produto p {
+    background-color: #3E6913;
+    color: #f4e7c8;
+    padding: 5px 10px;
+    font-family: 'Parisienne', cursive;
+    font-weight: 400;
+    text-align: center;
+}
+
+.produto p:hover {
+    transform: rotate(-2deg);
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer {
+    background: #f4e7c8;
+    height: 7rem;
+    padding-top: 50px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
