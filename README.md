@@ -1,1 +1,1 @@
-# Primeiro-Catalogo
+Olá, essa foi a minha primeira tentativa de criar um catálogo. Confesso não ter gostado muuuuuito do resultado, por não conseguir fazer algumas coiass que eu gostaria, porém fiquei feliz co o resultado final por ser uma primeira vez.
